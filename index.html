@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Shopping-House</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="store logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="cart-btn fa fa-shopping-cart" aria-hidden="true"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Furniture continue</h1>
+        <button class="banner-btn">Show Now</button>
+      </div>
+    </header>
+    <div class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+      <div class="products-center">
+        <!-- <div class="product">
+          <div class="img-container">
+            <img src="./images/product-1.jpeg" class="product-img" alt="" />
+            <div class="bag-btn" data-id="1">
+              <i
+                class="nav-icon cart-btn fa fa-shopping-cart"
+                aria-hidden="true"
+              ></i>
+              add To Cart
+            </div>
+          </div>
+          <h3>queen panel bed</h3>
+          <h4>$10.99</h4>
+        </div> -->
+      </div>
+    </div>
+
+    <section class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!-- <div class="cart-item">
+            <img src="./images/product-1.jpeg" class="" alt="product">
+            <div>
+              <h4>queen bed</h4>
+              <h5>$9.99</h5>
+              <span class="remove-item"><i class="fas fa-trash"></i></span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">0</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div> -->
+
+        </div>
+        <div class="cart-footer">
+          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear cart</button>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
